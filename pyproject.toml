@@ -11,8 +11,12 @@ classifiers = [
     "Operating System :: OS Independent",
 ]
 
+
 [project.urls]
 homepage = "https://github.com/philzook58/pyvampire"
 
-[tool.setuptools.packages.find]
-where = ["vampire"]
+[tool.setuptools]
+packages = ["vampire"]
+
+[tool.setuptools.package-data]
+vampire = ["vampire*"]

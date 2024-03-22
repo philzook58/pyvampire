@@ -7,7 +7,15 @@ Supplies an x86_64 binary built under Ubuntu 22.04. If you are not running somet
 ## Installation
 
 ```bash
+git clone https://github.com/philzook58/pyvampire
+cd pyvampire
 python3 -m pip install -e .
+```
+
+or
+
+```bash
+pip install git+https://github.com/philzook58/pyvampire
 ```
 
 ```python
