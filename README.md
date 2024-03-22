@@ -21,5 +21,5 @@ pip install git+https://github.com/philzook58/pyvampire
 ```python
 import vampire
 vampire.binpath()
-vampire.run(["/tmp/test.p"]) # same arguments as subprocess.run
+vampire.run(["/tmp/test.p"], capture_output=True) # same arguments as subprocess.run
 ```
